@@ -24,10 +24,10 @@
             <nav class="page-header__nav">
                 <ul class="list page-header__list">
                     <li class="page-header__item">
-                        <a class="link page-header__link" href="./index.html">Студия</a>
+                        <a class="link page-header__link current" href="./index.html">Студия</a>
                     </li>
                     <li class="page-header__item">
-                        <a class="link page-header__link current" href="./portfolio.html">Портфолио</a>
+                        <a class="link page-header__link" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="page-header__item">
                         <a class="link page-header__link" href="">Контакты</a>
@@ -55,53 +55,49 @@
             </button>
         </div>
         <div class="page-header__mob js-menu-container is-hidden" data-menu>
-            <div class="container page-header__mob-container">
-                <div class="page-header__mob-top">
-                    <button class="page-header__mob-btn page-header__mob-btn--close" type="button" data-menu-close>
-                        <svg class="page-header__mob-close" width="40" height="40">
-                            <use href="./images/icons.svg#icon-mobile-close"></use>
-                        </svg>
-                    </button>
-                    <nav class="page-header__mob-nav">
-                        <ul class="list page-header__mob-list">
-                            <li class="page-header__mob-item">
-                                <a class="link page-header__mob-link" href="./index.html">Студия</a>
-                            </li>
-                            <li class="page-header__mob-item">
-                                <a class="link page-header__mob-link" href="./portfolio.html">Портфолио</a>
-                            </li>
-                            <li class="page-header__mob-item">
-                                <a class="link page-header__mob-link" href="">Контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="page-header__mob-bottom">
-                    <ul class="list page-header__cont">
-                        <li class="page-header__cont-item">
-                            <a class="link page-header__cont-link page-header__cont-tel" href="tel:+380961111111">+38 096
-                                111 11 11</a>
-                        </li>
-                        <li class="page-header__cont-item">
-                            <a class="link page-header__cont-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                    </ul>
-                    <ul class="list social-mob page-header__social">
-                        <li class="social-mob__item">
-                            <a class="link social-mob__link" href="#">Instagram</a>
-                        </li>
-                        <li class="social-mob__item">
-                            <a class="link social-mob__link" href="#">Twitter</a>
-                        </li>
-                        <li class="social-mob__item">
-                            <a class="link social-mob__link" href="#">Facebook</a>
-                        </li>
-                        <li class="social-mob__item">
-                            <a class="link social-mob__link" href="#">LinkedIn</a>
-                        </li>
+            <button class="page-header__mob-btn page-header__mob-btn--close" type="button" data-menu-close>
+                <svg class="page-header__mob-close" width="40" height="40">
+                    <use href="./images/icons.svg#icon-mobile-close"></use>
+                </svg>
+            </button>
+            <nav class="page-header__mob-nav">
+                <ul class="list page-header__mob-list">
+                    <li class="page-header__mob-item">
+                        <a class="link page-header__mob-link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="page-header__mob-item">
+                        <a class="link page-header__mob-link current--mob" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="page-header__mob-item">
+                        <a class="link page-header__mob-link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="page-header__mob-cont">
+                <ul class="list page-header__cont">
+                    <li class="page-header__cont-item">
+                        <a class="link page-header__cont-link page-header__cont-tel" href="tel:+380961111111">+38 096 111 11
+                            11</a>
+                    </li>
+                    <li class="page-header__cont-item">
+                        <a class="link page-header__cont-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="list social-mob page-header__social">
+                    <li class="social-mob__item">
+                        <a class="link social-mob__link" href="#">Instagram</a>
+                    </li>
+                    <li class="social-mob__item">
+                        <a class="link social-mob__link" href="#">Twitter</a>
+                    </li>
+                    <li class="social-mob__item">
+                        <a class="link social-mob__link" href="#">Facebook</a>
+                    </li>
+                    <li class="social-mob__item">
+                        <a class="link social-mob__link" href="#">LinkedIn</a>
+                    </li>
     
-                    </ul>
-                </div>
+                </ul>
             </div>
         </div>
     </header>
@@ -203,7 +199,7 @@
                                 <source srcset="./images/portfolio-desk-5@1x.jpg 1x, ./images/portfolio-desk-5@2x.jpg 2x"
                                     media="(min-width: 1200px)" />
                                 <source srcset="./images/portfolio-tab-5@1x.jpg 1x, ./images/portfolio-tab-5@2x.jpg 2x" media="(min-width: 768px)">
-                                <source srcset="./images/portfolio-mob-5@1x.jpg 1x, ./images/portfolio-mob5@2x.jpg 2x" media="(min-width: 320px)">
+                                <source srcset="./images/portfolio-mob-5@1x.jpg 1x, ./images/portfolio-mob-5@2x.jpg 2x" media="(min-width: 320px)">
                                 <img src="./images/portfolio-desk-5@1x.jpg" alt="Белая и крафтовая коробки">
                             </picture>
                             <p class="portfolio__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
@@ -222,7 +218,7 @@
                                 <source srcset="./images/portfolio-desk-6@1x.jpg 1x, ./images/portfolio-desk-6@2x.jpg 2x"
                                     media="(min-width: 1200px)" />
                                 <source srcset="./images/portfolio-tab-6@1x.jpg 1x, ./images/portfolio-tab-6@2x.jpg 2x" media="(min-width: 768px)">
-                                <source srcset="./images/portfolio-mob-6@1x.jpg 1x, ./images/portfolio-mob6@2x.jpg 2x" media="(min-width: 320px)">
+                                <source srcset="./images/portfolio-mob-6@1x.jpg 1x, ./images/portfolio-mob-6@2x.jpg 2x" media="(min-width: 320px)">
                                 <img src="./images/portfolio-desk-6@1x.jpg" alt="Монитор с главной страницей сайта">
                             </picture>
                             <p class="portfolio__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
@@ -241,7 +237,7 @@
                                 <source srcset="./images/portfolio-desk-7@1x.jpg 1x, ./images/portfolio-desk-7@2x.jpg 2x"
                                     media="(min-width: 1200px)" />
                                 <source srcset="./images/portfolio-tab-7@1x.jpg 1x, ./images/portfolio-tab-7@2x.jpg 2x" media="(min-width: 768px)">
-                                <source srcset="./images/portfolio-mob-7@1x.jpg 1x, ./images/portfolio-mob7@2x.jpg 2x" media="(min-width: 320px)">
+                                <source srcset="./images/portfolio-mob-7@1x.jpg 1x, ./images/portfolio-mob-7@2x.jpg 2x" media="(min-width: 320px)">
                                 <img src="./images/portfolio-desk-7@1x.jpg" alt="Пример дизайна страниц журнала">
                             </picture>
                             <p class="portfolio__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
@@ -260,7 +256,7 @@
                                 <source srcset="./images/portfolio-desk-8@1x.jpg 1x, ./images/portfolio-desk-8@2x.jpg 2x"
                                     media="(min-width: 1200px)" />
                                 <source srcset="./images/portfolio-tab-8@1x.jpg 1x, ./images/portfolio-tab-8@2x.jpg 2x" media="(min-width: 768px)">
-                                <source srcset="./images/portfolio-mob-8@1x.jpg 1x, ./images/portfolio-mob8@2x.jpg 2x" media="(min-width: 320px)">
+                                <source srcset="./images/portfolio-mob-8@1x.jpg 1x, ./images/portfolio-mob-8@2x.jpg 2x" media="(min-width: 320px)">
                                 <img src="./images/portfolio-desk-8@1x.jpg" alt="Логотип компании на ярлычке">
                             </picture>
                             <p class="portfolio__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
@@ -279,7 +275,7 @@
                                 <source srcset="./images/portfolio-desk-9@1x.jpg 1x, ./images/portfolio-desk-9@2x.jpg 2x"
                                     media="(min-width: 1200px)" />
                                 <source srcset="./images/portfolio-tab-9@1x.jpg 1x, ./images/portfolio-tab-9@2x.jpg 2x" media="(min-width: 768px)">
-                                <source srcset="./images/portfolio-mob-9@1x.jpg 1x, ./images/portfolio-mob9@2x.jpg 2x" media="(min-width: 320px)">
+                                <source srcset="./images/portfolio-mob-9@1x.jpg 1x, ./images/portfolio-mob-9@2x.jpg 2x" media="(min-width: 320px)">
                                 <img src="./images/portfolio-desk-9@1x.jpg" alt="Человек работает за ноутбуком">
                             </picture>
                             <p class="portfolio__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
@@ -295,8 +291,8 @@
             </div>
         </section>
     </main>
-    <!-- Подвал сайта -->
-    <!-- <footer class="page-footer">
+    <!-- Footer section -->
+    <footer class="page-footer">
         <div class="container page-footer__list">
             <div class="page-footer__item">
                 <a class="logo link page-footer__logo" href="index.html">Web<span
@@ -361,7 +357,68 @@
                 </form>
             </div>
         </div>
-    </footer> -->
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal__btn" type="button" data-modal-close>
+                <svg class="modal__icon" width="18" height="18">
+                    <use href="./images/icons.svg#icon-icon-close-black"></use>
+                </svg>
+            </button>
+            <form action="#">
+                <p class="form__title">Оставьте свои данные, мы вам перезвоним</p>
+                <div class="form__field">
+                    <label class="form__label" for="user-name">Имя</label>
+                    <div class="form__wrap">
+                        <input class="form__input" type="text" id="user-name" name="user-name">
+                        <svg class="form__icon" width="18" height="18">
+                            <use href="./images/icons.svg#icon-user"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="form__field">
+                    <label class="form__label" for="user-tel">Телефон</label>
+                    <div class="form__wrap">
+                        <input class="form__input" type="tel" id="user-tel" name="user-tel">
+                        <svg class="form__icon" width="18" height="18">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="form__field">
+                    <label class="form__label" for="user-email">Почта</label>
+                    <div class="form__wrap">
+                        <input class="form__input" type="email" id="user-email" name="user-email">
+                        <svg class="form__icon" width="18" height="18">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="form__field form__field--comment">
+                    <label class="form__label" for="comment">Комментарий</label>
+                    <textarea class="form__comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                </div>
+                <div class="form__policy">
+                    <input class="form__checkbox visually-hidden" type="checkbox" name="policy" id="policy">
+                    <label class="form__text" for="policy">
+                        <span class="form__policy-icon">
+                            <svg class="form__policy-check" width="11" height="8">
+                                <use href="./images/icons.svg#icon-check"></use>
+                            </svg>
+                        </span> <span>Соглашаюсь с рассылкой и принимаю <a class="form__policy-link" href="#">Условия
+                                договора</a></span></label>
+                </div>
+                <div class="form__btn">
+                    <button class="btn" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
