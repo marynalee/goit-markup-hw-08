@@ -57,6 +57,10 @@ body {
   display: block;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .card-set {
   display: -webkit-box;
   display: -ms-flexbox;
